@@ -12,16 +12,21 @@ MonoBehaviour:
   m_Name: ProBuilderPreferences
   m_EditorClassIdentifier: 
   m_Bool_keys:
-  - pbIconGUI
   - pbEnableBackfaceSelection
-  - pbDefaultOpenInDockableWindow
+  - pbIconGUI
+  - pbStripProBuilderOnBuild
+  - pbDisableAutoUV2Generation
+  - pbForceConvex
+  - pbMeshesAreAssets
   m_Int_keys:
   - pbHandleAlignment
   - pbDefaultEditLevel
   - pbDefaultSelectionMode
   - pb_GIWorkflowMode
+  - pbDefaultCollider
+  - pbShadowCastingMode
+  - pbDefaultStaticFlags
   - pbVertexColorTool
-  - pbRectSelectMode
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
@@ -29,14 +34,16 @@ MonoBehaviour:
   m_String_keys:
   - pb_VertexColorPalette::lastAssignedColorPalette
   m_Color_keys: []
-  m_Material_keys: []
-  m_Bool_values: 010101
-  m_Int_values: 000000000100000001000000000000000000000000000000
+  m_Material_keys:
+  - pbDefaultMaterial
+  m_Bool_values: 000101000000
+  m_Int_values: 0000000000000000000000000000000002000000020000000000000000000000
   m_Float_values:
   - 0
   - 0
-  - 0.28
+  - 0.23
   m_String_values:
   - Assets/ProBuilder Data/Default Color Palette.asset
   m_Color_values: []
-  m_Material_values: []
+  m_Material_values:
+  - {fileID: 2100000, guid: f8af10ae2c674e569782e57b09c76a13, type: 2}
