@@ -1,0 +1,12 @@
+newmtl OrangeMat
+Kd 1 0.7058532 0
+d 1
+
+newmtl BlueMat
+Kd 0.04992881 0.5520138 0.9622642
+d 1
+
+newmtl OrangeDarkMat
+Kd 0.8773585 0.6473075 0.09518514
+d 1
+
